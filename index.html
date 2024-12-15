@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculater!!!</title>
+
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+    <h1 class="heading">Welcome to calculate me!!!</h1>
+
+    <div class="cal_body">
+    
+    <div class="row">
+    <input type="text" class="input_box" id="inputBox" readonly>
+    <p id="resultDisplay"></p>
+    </div>
+
+    <div class="row">
+        <button class="button" onclick="appendToResult('9')">9</button>
+        <button class="button" onclick="appendToResult('8')">8</button>
+        <button class="button" onclick="appendToResult('7')">7</button>
+        <button class="button" onclick="appendToResult('+')">+</button>
+    </div>
+
+    <div class="row">
+        <button class="button" onclick="appendToResult('6')">6</button>
+        <button class="button" onclick="appendToResult('5')">5</button>
+        <button class="button" onclick="appendToResult('4')">4</button>
+        <button class="button" onclick="appendToResult('-')">-</button>
+    </div>
+
+    <div class="row">
+        <button class="button" onclick="appendToResult('3')">3</button>
+        <button class="button" onclick="appendToResult('2')">2</button>
+        <button class="button" onclick="appendToResult('1')">1</button>
+        <button class="button" onclick="appendToResult('*')">*</button>
+    </div>
+
+    <div class="row">
+        <button class="button" onclick="appendToResult('0')">0</button>
+        <button class="button" onclick="appendToResult('.')">.</button>
+        <button class="button" onclick="appendToResult('=')">=</button>
+        <button class="button" onclick="appendToResult('/')">/</button>
+    </div>
+
+    <div>
+        <button class="button" onclick="appendToResult('C')">C</button>
+    </div>
+
+    </div>
+    
+    <script src = "first.js"></script>  
+</body>
+</html>

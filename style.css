@@ -1,0 +1,37 @@
+.heading{
+    padding: 10px;
+    border: 2px solid blue;
+    border-radius: 9px;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.cal_body{
+    align-self: auto;
+    margin-inline: 150px;
+    border: 3px solid green;
+    padding: 10px;
+    border-radius: 9px;
+    background-color: yellow;   
+}
+
+.input_box{
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.row{
+    padding: 5px;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    padding:20px;
+    background-color: blueviolet;
+    color: yellowgreen;
+    border-radius: 9PX;
+}
